@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/* #character{
+   /* background-color: blueviolet; */
+
+#form{
+   margin-top: 100px;
+
+}
+/* #character img{
+    width: 300px;
+    height: 100%;
+    display: inline-block;
+} */
+img{
+    padding: 100px;
+    width: 400px;
+    height: 100%;
+}
+.signin{
+    padding: 200px;
+    width: 400px;
+    height: 100%;
+}
+h1{
+    color:rgb(63,94,251);
+    /* font-family: 'Beau Rivage', cursive !important; */
+
+}
+.white{
+    color:white !important;
+
+}
+.backgroundcoloring{
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(106,84,144,1) 100%);
+}
+/* .fonting{
+} */

@@ -1,0 +1,40 @@
+<%-include("header")-%>
+<div class="row">
+  <div class="col-6">
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="">
+  <span><h1>Name:</h1></span>
+  <span><p><%= bookname %></p></span>
+</div>
+<div class="">
+
+  <span><h1>Description:</h1></span>
+  <span><p><%=bookdescription%></p></span>
+</div>
+<div class="">
+  <span><h1>Stock:</h1></span>
+  <span><p><%=bookstock%></p></span>
+</div>
+</div>
+
+  <div class="col-6">
+    <br>
+    <br>
+    <br>
+    <br>
+<img src="<%= source %>" alt="" class="col-6">
+<div class="d-grid gap-2 col-6 ">
+  <button class="btn btn-primary" type="button">Buy Now!</button>
+  <button class="btn btn-warning" type="button">Boworrow Now!</button>
+</div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<%-include("footer")-%>

@@ -1,0 +1,51 @@
+body{
+  overflow-x: hidden;
+}
+.coloring{
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(106,84,144,1) 100%);
+    /* color: white !imortant; */
+}
+.white{
+    color: white !important;
+    line-height: normal;
+}
+#banner{
+    width: 100%;
+    height: 1000px;
+    /* background-color: aqua; */
+    background-image: url('6 SCENE.svg');
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+ .headings{
+color: #C74B50;
+font-family: 'Anton', sans-serif;
+padding: 10px;
+}
+.resizing{
+    width: 200px;
+    height: 200px;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+    padding: 20px;
+    margin: 20px;
+}
+a:hover{
+    color: black !important;
+    text-decoration: none !important;
+}
+.carousel-img{
+    width: 100px;
+    height: 400px;
+}
+.textalign{
+    text-align: start;
+}
+.fonting{
+  font-family: 'Beau Rivage', cursive;
+  font-family: 'Lobster', cursive;
+
+}
